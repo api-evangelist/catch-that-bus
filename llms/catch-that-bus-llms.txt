@@ -1,0 +1,25 @@
+# Catch that bus
+
+> Catch That Bus (catchthatbus.com) is a Malaysian / Southeast Asian online bus and coach ticket booking platform, surfaced as a portfolio company of 500 Global and tracked in the API Evangelist network. As of 2026-07-18 the site resolves over TLS 1.3 but the origin returns HTTP 522, and no public developer portal, documentation, OpenAPI, SDK, or MCP surface was discoverable.
+
+<!--
+generated: '2026-07-18'
+method: generated
+source: apis.yml + repo artifacts (no provider-published llms.txt found; https://catchthatbus.com returns HTTP 522)
+-->
+
+## Company
+
+- [Website](https://catchthatbus.com): Company website (probed 2026-07-18: HTTP 522, origin unreachable).
+
+## Backing
+
+- Portfolio company of 500 Global (x-source: vc-portfolio).
+
+## API surface
+
+- No public API, developer portal, documentation, OpenAPI, SDK, CLI, MCP server, webhook, or agent-skill surface was discoverable at the time of enrichment.
+
+## Artifacts in this repo
+
+- [Domain security probe](security/catch-that-bus-domain-security.yml): Live TLS / DNS / email-auth posture (TLS 1.3; no HSTS, DNSSEC, CAA, SPF, or DMARC observed).
